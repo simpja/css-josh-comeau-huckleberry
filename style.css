@@ -26,15 +26,16 @@ body {
   
 /* Add styles here! */
 .max-width-wrapper {
-  width: 50%;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto;
 
 }
 .intro-chunk {
-  max-width: 80%;
+  max-width: 70%;
   min-width: 300px;
   padding: 16px;
+  padding-right: 0;
 }
 .title {
  font-size: 2rem;
@@ -42,7 +43,6 @@ body {
 
 .intro-chunk p {
   margin: 32px 0px;
-  max-width: 50%;
 }
 
 .intro-chunk strong {
@@ -59,11 +59,10 @@ main {
   background-color: var(--white);
   padding: 2px 16px;
   border-bottom: 8px solid var(--medium);
-  min-width: 300px;
 }
 
 .indented-heading {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 16px 24px;
   background-color: var(--secondary-gold-light);
   margin-left: -24px;
